@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+::placeholder{
+    text-indent: 30px;
+}
+.header{
+    display: flex;
+    justify-content: right;
+height: 20vh;
+align-items: center;
+}.header a,img{
+    padding: 10px ;
+}.header a{
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}.header a :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.center{
+    text-align: center;
+    height: 60vh;
+}
+.logo img{
+    height: 20vh;
+    width: 45vh;
+}
+.search img{
+    position: absolute;
+}
+
+
+.search input{
+    height: 7vh;
+    width: 85vh;
+    border-radius: 99px;
+    border-color: rgb(87, 86, 86);
+    text-indent: 30px;
+}
+.lens-icon img{
+margin: -60px  240px;
+
+}
+.mic img{
+    margin: -45px  200px;
+}
+.button button{
+    margin: 20px 15px;
+    padding: 10px;
+}
+.language a{
+    text-decoration: none;
+
+}
+.language a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer{
+  height: 20vh;
+    background-color: silver;
+}
+.pk p{
+    margin: 15px 20px;
+    padding: 20px 2px;
+    display: flex;
+
+}
+.lr{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.lr .footer-right, .footer-left{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-left{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+
+}
+.footer-left a{
+    margin-right: 15px;
+}
+.footer-right{
+display: flex;
+width: 40%;
+height: 100%;
+align-items: center;
+justify-content: end;
+
+}
+.footer-right a{
+    margin-right: 15px;
+}
+
+
+
+

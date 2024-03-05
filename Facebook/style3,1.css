@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:#ffff;
+    background-image: url(./Assets/BG\ img\ signup\ .png);
+    
+    
+}
+span{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: #fff;
+    border-radius:5px;
+    border: 1px solid #dddfe2;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    width: 432px;
+    height: 520px;
+
+}
+h1{
+    margin: -40px;
+    padding-left: 45px;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+p{
+    margin-top: 35px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+hr{
+    margin-top: -8px;
+}
+.input1 input{
+    height: 30px;
+    width: 180px;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #F5F6F7;
+    border: 1px solid #dddfe2;
+}
+  .input2 input{
+    height: 35px;
+    width: 382px;
+    padding: 4px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    background-color:#F5F6F7;
+
+
+}
+select{
+    
+    
+}
+ .gender-input1 input{
+   
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+ 
+ }
+ .first-text{
+    font-size: 12px;
+    color: gray;
+ }
+ .scond-text{
+    font-size: 12px;
+    color: gray;
+ }
+ .btn-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+ }
+.btn-signup button{
+    height:40px ;
+    width:200px ;
+    font-size: 17px;
+
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif !important;
+    font-weight: bolder;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+
+    
+}
+
+
+    
+
